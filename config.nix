@@ -6,6 +6,10 @@
     	firefox = {
              enableGoogleTalkPlugin = true;
              enableAdobeFlash = true;
+             mozillaPlugin = true;
+             jrePlugin = true;
+	     icedtea = true;
+             icedtea_web = true;
          };
 
 	packageOverrides = pkgs: with pkgs; rec {
